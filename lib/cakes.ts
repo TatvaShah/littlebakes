@@ -33,7 +33,7 @@ export const lookbook: CakeShot[] = [
     height: 1750,
     alt: "Cherry on top heart cake by LittleBakes in Mississauga",
     title: "Cherry on top",
-    caption: "A heart cake from the Mississauga feed.",
+    caption: "A heart cake, cherry on top.",
     href: "https://www.instagram.com/p/Dde4UJ_sUn9/",
   },
   {
@@ -114,7 +114,7 @@ export const lookbook: CakeShot[] = [
     height: 1100,
     alt: "Bride to be cake by LittleBakes in Mississauga",
     title: "Bride to be",
-    caption: "A celebration cake from the Mississauga feed.",
+    caption: "A cake for the bride to be.",
     href: "https://www.instagram.com/p/Dct35ZVARj2/",
   },
   {
@@ -123,7 +123,7 @@ export const lookbook: CakeShot[] = [
     height: 1375,
     alt: "SpongeBob cake by LittleBakes in Mississauga",
     title: "SpongeBob cake",
-    caption: "A themed cake from the feed.",
+    caption: "A SpongeBob cake.",
     href: "https://www.instagram.com/p/DdRsr8KM5KE/",
   },
   {
@@ -149,14 +149,14 @@ export const reels = [
     src: "/reels/green.mp4",
     poster: "/cakes/poster-green.webp",
     title: "Green and gold",
-    caption: "A short cake reel from the feed.",
+    caption: "A green and gold cake.",
     href: "https://www.instagram.com/p/DdrNP9bMzI7/",
   },
   {
     src: "/reels/hearts.mp4",
     poster: "/cakes/poster-heart.webp",
     title: "Heart cakes with bows",
-    caption: "A short reel of heart cakes.",
+    caption: "Heart cakes finished with bows.",
     href: "https://www.instagram.com/p/DccN6UWAYHp/",
   },
 ];

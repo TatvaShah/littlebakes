@@ -20,7 +20,7 @@ export function SiteFooter() {
           </p>
         </div>
         <div>
-          <p className="text-xs font-semibold tracking-[0.18em] text-gold uppercase">Find them</p>
+          <p className="text-xs font-semibold tracking-[0.18em] text-gold uppercase">Say hello</p>
           <ul className="mt-4 grid gap-2 text-sm">
             <li>
               <a href={instagramUrl} className="hover:text-rose">
@@ -59,7 +59,7 @@ export function SiteFooter() {
             </li>
             <li>
               <Link href="/#pricing" className="hover:text-rose">
-                Public pricing
+                Valentine&apos;s prices
               </Link>
             </li>
             <li>
