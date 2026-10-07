@@ -65,17 +65,15 @@ export default function Home() {
 
       <section className="bg-ink text-cream">
         <div className="mx-auto grid max-w-6xl gap-6 px-5 py-10 md:grid-cols-3">
-          <p className="text-sm leading-6 text-blush">
-            Send a DM with your date, cake size or number of servings, and an inspo photo to get a quote.
-          </p>
-          <p className="text-sm leading-6">Heart Cakes and Round Cakes are highlights on the Instagram profile.</p>
-          <p className="text-sm leading-6">The other highlights are named Customer Cam and Reviews.</p>
+          <p className="text-sm leading-6 text-blush">Weddings and birthdays</p>
+          <p className="text-sm leading-6">Heart cakes and round cakes</p>
+          <p className="text-sm leading-6">Mississauga and the GTA</p>
         </div>
       </section>
 
       <section id="occasions" className="mx-auto max-w-6xl scroll-mt-24 px-5 py-16 md:py-24">
         <p className="font-script text-4xl text-rose">the occasions</p>
-        <h2 className="font-display text-4xl tracking-tight text-ink sm:text-5xl">What the bio promises</h2>
+        <h2 className="font-display text-4xl tracking-tight text-ink sm:text-5xl">Cakes for every celebration</h2>
         <div className="mt-8 grid gap-5 md:grid-cols-3">
           {occasionCards.map((card) => (
             <article key={card.title} className="overflow-hidden rounded-[1.75rem] bg-foam ring-1 ring-sand">
@@ -100,16 +98,16 @@ export default function Home() {
         <div className="mx-auto max-w-6xl scroll-mt-24 px-5 py-16 md:py-24">
           <p className="font-script text-4xl text-rose">the styles</p>
           <h2 className="max-w-2xl font-display text-4xl tracking-tight text-ink sm:text-5xl">
-            Heart cakes, round cakes, and the rest of the feed
+            Heart cakes, round cakes, and a little more
           </h2>
           <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              ["Heart cakes", "A highlight of their own, from cherry hearts to bows."],
-              ["Round cakes", "A second highlight. Many posts are a 6 inch cake in two layers."],
+              ["Heart cakes", "Cherry hearts and little bows."],
+              ["Round cakes", "A 6 inch cake in two layers, for about 8 to 10."],
               ["Vintage piping", "Soft florals and piped borders, including a 25th birthday."],
               ["Wafer paper florals", "A wafer paper cake with roses."],
-              ["Tiered weddings", "An 8, 6, and 4 inch wedding cake, described as simple and classic."],
-              ["Themed celebrations", "Ballerina, Elmo, SpongeBob, and Spider-Man cupcakes have all appeared."],
+              ["Tiered weddings", "Simple and classic. An 8, 6, and 4 inch wedding cake."],
+              ["Themed celebrations", "Ballerina, Elmo, SpongeBob, and Spider-Man cupcakes."],
             ].map(([title, copy]) => (
               <li key={title} className="rounded-[1.5rem] bg-cream p-5 ring-1 ring-sand">
                 <h3 className="font-display text-2xl text-ink">{title}</h3>
@@ -124,7 +122,7 @@ export default function Home() {
         <div className="flex flex-col justify-between gap-4 md:flex-row md:items-end">
           <div>
             <p className="font-script text-4xl text-rose">the lookbook</p>
-            <h2 className="font-display text-4xl tracking-tight text-ink sm:text-5xl">From their own posts</h2>
+            <h2 className="font-display text-4xl tracking-tight text-ink sm:text-5xl">A look at the cakes</h2>
           </div>
           <a href={instagramUrl} className="text-sm font-medium text-rose underline decoration-sand underline-offset-4">
             Follow @littlebakes.ca
@@ -155,9 +153,9 @@ export default function Home() {
       <section id="reels" className="bg-ink text-cream">
         <div className="mx-auto max-w-6xl scroll-mt-24 px-5 py-16 md:py-24">
           <p className="font-script text-4xl text-blush">press play</p>
-          <h2 className="font-display text-4xl tracking-tight sm:text-5xl">Reels from the feed</h2>
+          <h2 className="font-display text-4xl tracking-tight sm:text-5xl">A closer look</h2>
           <p className="mt-3 max-w-xl text-sm leading-6 text-blush">
-            These are their Instagram reels, saved so they play here. Original audio is not included.
+            Short films of the cakes. Press play. They play quietly, without sound.
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             {reels.map((reel) => (
@@ -186,12 +184,11 @@ export default function Home() {
       </section>
 
       <section id="pricing" className="mx-auto max-w-6xl scroll-mt-24 px-5 py-16 md:py-24">
-        <p className="font-script text-4xl text-rose">what is posted</p>
-        <h2 className="font-display text-4xl tracking-tight text-ink sm:text-5xl">Pricing that is public</h2>
+        <p className="font-script text-4xl text-rose">your quote</p>
+        <h2 className="font-display text-4xl tracking-tight text-ink sm:text-5xl">Cakes quoted in your DM</h2>
         <p className="mt-4 max-w-2xl text-base leading-7 text-muted">
-          Custom celebration cakes are quoted in the DM. LittleBakes has not posted a general price
-          list or a general lead time for those orders. The prices below are only for the Valentine&apos;s
-          Day preorder.
+          Custom celebration cakes are quoted when you send a DM. These prices are only for the
+          Valentine&apos;s Day preorder.
         </p>
         <div className="mt-8 grid gap-4 md:grid-cols-3">
           {[
@@ -207,7 +204,7 @@ export default function Home() {
           ))}
         </div>
         <p className="mt-6 max-w-2xl text-sm leading-6 text-muted">
-          Pickup on that form is February 13 and 14 only, with time slots listed there.{" "}
+          Pickup for this preorder is February 13 and 14 only, with time slots on the form.{" "}
           <a href={valentineFormUrl} className="font-medium text-rose underline decoration-sand underline-offset-4">
             Open the Valentine&apos;s Day cake preorder form
           </a>

@@ -116,8 +116,8 @@ export function OrderBuilder() {
           <p className="font-script text-3xl text-rose">your note</p>
           <h2 className="font-display text-4xl tracking-tight text-ink">Start the DM</h2>
           <p className="mt-3 text-sm leading-6 text-muted">
-            LittleBakes asks for your date, the cake size or number of servings, and an inspo photo.
-            This note gathers that, then opens the Instagram chat.
+            Share your date, the cake size or number of servings, and an inspo photo. This note
+            gathers that, then opens the Instagram chat.
           </p>
         </div>
 
@@ -141,9 +141,9 @@ export function OrderBuilder() {
         />
         {draft.occasion === "Valentine's Day" ? (
           <p className="rounded-2xl bg-blush/70 px-4 py-3 text-sm leading-6 text-ink">
-            The public Valentine&apos;s preorder lists a 6 inch round at $65 CAD, a 6 inch heart with a
-            photo strip at $75 CAD, and a 4 inch mini cake with 5 cupcakes at $70 CAD. Pickup on that
-            form is February 13 and 14 only.{" "}
+            For Valentine&apos;s Day, a 6 inch round is $65 CAD, a 6 inch heart with a photo strip of 3
+            photos is $75 CAD, and a 4 inch mini cake with 5 cupcakes is $70 CAD. Pickup is February
+            13 and 14 only.{" "}
             <a href={valentineFormUrl} className="underline">
               Open the preorder form
             </a>
@@ -159,7 +159,7 @@ export function OrderBuilder() {
           onChange={(style) => update({ style })}
         />
         <ChoiceGroup
-          legend="Size LittleBakes has shared"
+          legend="Cake size"
           name="size"
           options={sizes}
           value={draft.size}
@@ -188,14 +188,15 @@ export function OrderBuilder() {
         </div>
 
         <ChoiceGroup
-          legend="Flavor, if you want one they list"
+          legend="Flavor"
           name="flavor"
           options={flavors}
           value={draft.flavor}
           onChange={(flavor) => update({ flavor })}
         />
         <p className="-mt-4 text-xs leading-5 text-muted">
-          Those three flavors are on the Valentine&apos;s preorder. Describe anything else below.
+          Vanilla, chocolate, and red velvet are on the Valentine&apos;s Day preorder. Describe any other
+          flavor below.
         </p>
 
         <label className="grid gap-2 text-sm font-medium">
@@ -204,7 +205,7 @@ export function OrderBuilder() {
             value={draft.notes}
             onChange={(event) => update({ notes: event.target.value })}
             rows={4}
-            placeholder="Colors, wording, or a cake from their feed you love"
+            placeholder="Colors, wording, or a cake you love"
             className="rounded-2xl border border-sand bg-cream px-4 py-3 font-normal"
           />
         </label>
@@ -217,8 +218,7 @@ export function OrderBuilder() {
           Copy message and open Instagram
         </button>
         <p className="text-xs leading-5 text-muted">
-          Custom cakes are quoted in the chat. A general lead time is not posted, so the date in your
-          note is how LittleBakes can confirm the spot.
+          Custom cakes are quoted in the chat. Add your date, and I will tell you if that day can work.
         </p>
       </form>
 
