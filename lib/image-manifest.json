@@ -1,1 +1,314 @@
-{}
+{
+ "/cakes/ballerina.webp": {
+  "w": 1200,
+  "h": 1500,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080,
+   1200
+  ],
+  "base": "/images/_opt/cakes/ballerina.d71fc86060",
+  "stamp": "d71fc86060"
+ },
+ "/cakes/bibble.webp": {
+  "w": 1100,
+  "h": 1100,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080,
+   1100
+  ],
+  "base": "/images/_opt/cakes/bibble.4cc1ab3b3b",
+  "stamp": "4cc1ab3b3b"
+ },
+ "/cakes/bride.webp": {
+  "w": 1100,
+  "h": 1100,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080,
+   1100
+  ],
+  "base": "/images/_opt/cakes/bride.54113a7e80",
+  "stamp": "54113a7e80"
+ },
+ "/cakes/cherry.webp": {
+  "w": 1400,
+  "h": 1750,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080,
+   1200,
+   1400
+  ],
+  "base": "/images/_opt/cakes/cherry.a4b530d8c7",
+  "stamp": "a4b530d8c7"
+ },
+ "/cakes/elmo.webp": {
+  "w": 1200,
+  "h": 1200,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080,
+   1200
+  ],
+  "base": "/images/_opt/cakes/elmo.bbf6cef986",
+  "stamp": "bbf6cef986"
+ },
+ "/cakes/lily.webp": {
+  "w": 1400,
+  "h": 1750,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080,
+   1200,
+   1400
+  ],
+  "base": "/images/_opt/cakes/lily.7b265274f7",
+  "stamp": "7b265274f7"
+ },
+ "/cakes/logo.png": {
+  "w": 256,
+  "h": 256,
+  "widths": [
+   96,
+   128,
+   256
+  ],
+  "base": "/images/_opt/cakes/logo.adb5bdd1bd",
+  "stamp": "adb5bdd1bd"
+ },
+ "/cakes/logo.webp": {
+  "w": 320,
+  "h": 320,
+  "widths": [
+   96,
+   128,
+   256,
+   320
+  ],
+  "base": "/images/_opt/cakes/logo.82337986f0",
+  "stamp": "82337986f0"
+ },
+ "/cakes/nineteen.webp": {
+  "w": 1200,
+  "h": 1500,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080,
+   1200
+  ],
+  "base": "/images/_opt/cakes/nineteen.a5adf21b6c",
+  "stamp": "a5adf21b6c"
+ },
+ "/cakes/poster-florals.webp": {
+  "w": 900,
+  "h": 1600,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   900
+  ],
+  "base": "/images/_opt/cakes/poster-florals.8e8697e1ae",
+  "stamp": "8e8697e1ae"
+ },
+ "/cakes/poster-green.webp": {
+  "w": 900,
+  "h": 1125,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   900
+  ],
+  "base": "/images/_opt/cakes/poster-green.323a4e6fca",
+  "stamp": "323a4e6fca"
+ },
+ "/cakes/poster-heart.webp": {
+  "w": 900,
+  "h": 1600,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   900
+  ],
+  "base": "/images/_opt/cakes/poster-heart.61a1c6a8df",
+  "stamp": "61a1c6a8df"
+ },
+ "/cakes/raspberry.webp": {
+  "w": 1200,
+  "h": 1500,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080,
+   1200
+  ],
+  "base": "/images/_opt/cakes/raspberry.4982605417",
+  "stamp": "4982605417"
+ },
+ "/cakes/reveal.webp": {
+  "w": 1200,
+  "h": 1500,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080,
+   1200
+  ],
+  "base": "/images/_opt/cakes/reveal.78abaefb4c",
+  "stamp": "78abaefb4c"
+ },
+ "/cakes/roses.webp": {
+  "w": 1200,
+  "h": 1200,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080,
+   1200
+  ],
+  "base": "/images/_opt/cakes/roses.59cb7f0be3",
+  "stamp": "59cb7f0be3"
+ },
+ "/cakes/spongebob.webp": {
+  "w": 1100,
+  "h": 1375,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080,
+   1100
+  ],
+  "base": "/images/_opt/cakes/spongebob.78bf377c34",
+  "stamp": "78bf377c34"
+ },
+ "/cakes/thirty.webp": {
+  "w": 1200,
+  "h": 1199,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080,
+   1200
+  ],
+  "base": "/images/_opt/cakes/thirty.fc3d8d6285",
+  "stamp": "fc3d8d6285"
+ },
+ "/cakes/vintage.webp": {
+  "w": 1200,
+  "h": 1200,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080,
+   1200
+  ],
+  "base": "/images/_opt/cakes/vintage.c7f6fd90fb",
+  "stamp": "c7f6fd90fb"
+ },
+ "/cakes/wedding.webp": {
+  "w": 1600,
+  "h": 2000,
+  "widths": [
+   96,
+   128,
+   256,
+   384,
+   640,
+   750,
+   828,
+   1080,
+   1200,
+   1600
+  ],
+  "base": "/images/_opt/cakes/wedding.a11c196a92",
+  "stamp": "a11c196a92"
+ }
+}

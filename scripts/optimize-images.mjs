@@ -1,4 +1,4 @@
-// Build time image step. Converts every photo in public/images (and public/media) into static WebP and AVIF files at
+// Build time image step. Converts every photo in the folders under public into static WebP and AVIF files at
 // responsive widths (never wider than the source) and writes lib/image-manifest.json with
 // intrinsic sizes. lib/image-loader.ts points next/image at these files, so Vercel runs zero
 // image transformations. Outputs are committed; unchanged images are skipped, so builds stay fast.
@@ -26,7 +26,9 @@ function walk(dir) {
 }
 
 const old = fs.existsSync(MANIFEST) ? JSON.parse(fs.readFileSync(MANIFEST, "utf8")) : {};
-const files = [...walk(SRC), ...walk(path.join(ROOT, "public/media"))]; // public/media: older site layout
+// Every image folder under public (images, media, photos, brand...). Files directly in public, like og.jpg, are left alone.
+const PUB = path.join(ROOT, "public");
+const files = fs.readdirSync(PUB, { withFileTypes: true }).filter((d) => d.isDirectory()).sort((a, b) => a.name.localeCompare(b.name)).flatMap((d) => walk(path.join(PUB, d.name)));
 const manifest = {};
 const keep = new Set();
 let sharp = null;
